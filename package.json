@@ -1,0 +1,25 @@
+{
+  "name": "vulnerable-package",
+  "version": "1.0.0",
+  "description": "A test package with vulnerable dependencies for security tool testing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.20", 
+    "underscore": "1.12.0", 
+    "internal-package1": "1.0.0", 
+    "@mycompany/internal-package2": "2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vulnerable-package.git"
+  },
+  "keywords": ["security", "vulnerable", "test"],
+  "author": "Your Name",
+  "license": "MIT"
+}
